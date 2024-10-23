@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    ;
+
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(pexels-photo-1366957.webp) no-repeat;
+   background-size: cover;
+   background-position: center ;
+
+}
+
+.container {
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid rgb(174, 171, 171);
+    box-shadow: 10, 10, 10,10 rgb(255, 251, 251) rgba(10, 10, 10, 10);
+
+
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+.box1 {
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: solid 1px rgb(174, 171, 171);
+    color: white;
+
+
+}
+
+.box1,
+::placeholder {
+    color: rgb(255, 251, 251);
+}
+.profile{
+    position: relative;
+    right: 40px;
+    top: 8.5px;
+
+}
+
+
+.box2 {
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: solid 1px rgb(174, 171, 171);
+    color: white;
+
+}
+.lock{
+    position: relative;
+    right: 40px;
+    top: 8.5px;
+    
+    
+
+}
+
+.rembox {
+    margin-left: 30px;
+
+}
+
+.forgot {
+    color: white;
+    margin-left: 100px;
+
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+.txt1 {
+    color: white;
+}
+
+.bt1 {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor:pointer
+
+}
+
+.bt2 {
+    margin-top: 20px;
+    margin-left: 75px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    
+    
+}
+
+.txt2 {
+    color: white;
+    margin-left: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
